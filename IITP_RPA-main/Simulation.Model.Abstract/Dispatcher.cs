@@ -9,7 +9,7 @@ using CSScriptLibrary;
 
 namespace Simulation.Model.Abstract
 {
-    public class Dispatcher
+    public class Dispatcher   
     {
         private static Dispatcher _instance;
         private Vector2 ohtPosition = Vector2.One;
