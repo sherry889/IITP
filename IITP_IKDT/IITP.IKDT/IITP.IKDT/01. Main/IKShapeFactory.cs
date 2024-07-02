@@ -16,6 +16,8 @@ namespace Pinokio.IKDT
 {
     public class IKShapeFactory : ShapeFactory
     {
+        bool isUpdated = false;
+
         private EyeshotViewFrame _viewFrame;
         public IKShapeFactory(EyeshotViewFrame viewFrame)
         {
