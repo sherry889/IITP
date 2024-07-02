@@ -11,7 +11,7 @@ namespace Simulation.Model.Abstract
 {
     public class Dispatcher     
     {
-        private static Dispatcher _instance;
+        private static Dispatcher _instance; 
         private Vector2 ohtPosition = Vector2.One;
         string dynamicRoutingScript;
 
