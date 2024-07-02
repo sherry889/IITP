@@ -37,6 +37,8 @@ namespace Pinokio.IKDT
         private ZMQManager _communicationManager;
         private bool _isModelLoaded;
 
+
+
         static public MainForm Instance
         {
             get { return _mainForm; }
