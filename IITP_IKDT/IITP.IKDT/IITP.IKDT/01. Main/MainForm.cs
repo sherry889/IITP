@@ -36,7 +36,7 @@ namespace Pinokio.IKDT
         private NModelManager _modelManager;
         private ZMQManager _communicationManager;
         private bool _isModelLoaded;
-        bool _isAnimation = false;
+        bool _isAnimation = true;
 
             
 
