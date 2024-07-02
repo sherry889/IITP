@@ -32,7 +32,7 @@ namespace Pinokio.IKDT
         private const int _portNumber5 = 55559;
 
         private SimDocument _simDocument;
-        public int PortNumber { get => _portNumber; }
+        public int PortNumber { get => _portNumber; set => value = _portNumber; }
 
         public ZMQManager()
         {
