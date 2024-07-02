@@ -39,6 +39,7 @@ namespace Pinokio.IKDT
 
 
 
+
         static public MainForm Instance
         {
             get { return _mainForm; }
