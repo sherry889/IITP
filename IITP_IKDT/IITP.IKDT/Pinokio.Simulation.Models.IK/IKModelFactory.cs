@@ -10,7 +10,8 @@ namespace Pinokio.Simulation.Models.IK
     {
         public static SimModel AddFactoryModel(this NModelManager modelManager, string group, string name)
         {
-            SimModel simModel = null;
+            SimModel simModel;
+            simModel = null;
             switch (group)
             {
                 case "MES":
