@@ -38,7 +38,7 @@ namespace Pinokio.IKDT
         private bool _isModelLoaded;
         bool _isAnimation = false;
 
-
+            
 
 
         static public MainForm Instance
