@@ -35,7 +35,7 @@ namespace Pinokio.IKDT
         private SimDocument _simDocument;
         private NModelManager _modelManager;
         private ZMQManager _communicationManager;
-        private bool _isModelLoaded;
+        private bool _isModelLoaded = false;
 
         static public MainForm Instance
         {
