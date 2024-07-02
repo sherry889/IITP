@@ -10,7 +10,7 @@ namespace Simulation.Model.Abstract
 {
     public class Command : SimPort
     {
-        private string _name;
+        private string _name; 
         private Fab _fab;
         private int _priority;
         private DateTime _realCompletedTime;
