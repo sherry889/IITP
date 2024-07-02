@@ -28,6 +28,7 @@ namespace Pinokio.IKDT
         private bool _isRunning;
         private MessageType _messageType;
         private const int _portNumber = 55555;
+        private const int _portNumber2 = 55556;
         private SimDocument _simDocument;
         public int PortNumber { get => _portNumber; }
 
